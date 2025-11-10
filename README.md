@@ -50,7 +50,7 @@ The analysis follows these steps:
 *   Missing values were handled by imputation based on column type and context.
 *   Outliers in numerical features were identified and removed.
 *   Correlation analysis revealed strong positive correlations between `is_completed` and `booking_value` (0.61) and `ride_distance` (0.73).
-*   The initial logistic regression model with `avg_vta` as the sole predictor shows a low R-squared value (0.037), indicating that this single feature is not sufficient to explain ride completion. Further analysis with more features is required for a robust predictive model.
+*   The initial logistic regression model with `avg_vta` as the sole predictor shows a low R-squared value (0.028), indicating that this single feature is not sufficient to explain ride completion. Further analysis with more features is required for a robust predictive model.
 ### Power BI platform's Analysis
 1.   Low Service Efficiency and Dominant Driver Cancellations
 *   Completion Rate: The overall ride completion rate is low at 61.56%. Out of 144,000 total bookings, only 89,000 were completed.
